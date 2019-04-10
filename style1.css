@@ -1,0 +1,242 @@
+body
+{
+	font-size:16px;
+	color:#fff;
+	background-color:#61122f;
+	font-family: 'Oxygen',sans-serif;
+}
+  #header-nav{
+  background-color:pink;
+  border-radius:0;
+  border:0;
+  }
+  *{
+    box-sizing:border-box;
+    margin:0px;
+    padding:0px;
+  }
+  h2{
+    text-align:center;
+  }
+  .navbar {
+  overflow: hidden;
+  background-color: #333;
+  font-family: Arial;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* The dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 16px; 
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+  }
+  .navbar-brand{
+  padding-top:25px;
+  }
+  #nav-list{
+  margin-top:10px;
+  }
+  #nav-list a{
+  color:#951c49;
+  text-align:center;
+  }
+  #nav-list a:hover {
+  background:#E7E7E7;
+  }
+  nav-list a span{
+  font-size:1.8em;
+  }
+  .navbar-headerbutton.navbar-toggle, .navbar-header.icon-bar{
+  border: 1px solid #61122f;
+  }
+  .navbar-headerbutton.navbar-toggle{
+  clear:both;
+  margin-top: -30px;
+  }
+  @media(min-width:576px){
+    .navbar-toggler{
+      display:none;
+    }
+  .nav-link{
+    display:none;
+  }
+}
+.navbar{
+  padding:0px;
+}
+  .navbar-toggler-icon{
+    margin:0px;
+    padding:0px;
+  }
+#box1{
+	height:250px;
+	width:100%;
+	margin-bottom:15px;
+	position:relative;
+	border:2px solid #3F0C1F;
+	overflow: hidden;
+  background-color:green;
+}
+#box2{
+  height:250px;
+  width:100%;
+  margin-bottom:15px;
+  position:relative;
+  border:2px solid #3F0C1F;
+  overflow: hidden;
+  background-color:green;
+  }
+#box3{
+  height:250px;
+  width:100%;
+  margin-bottom:15px;
+  margin-right:;
+  margin-left:;
+  position:relative;
+  border:2px solid #3F0C1F;
+  overflow: hidden;
+  background-color:green;
+}
+
+
+#tastytile1 span,#tastytile2 span,#tastytile3 span{
+	position:absolute;
+	top:0px;
+	right:0px;
+	width:100%;
+	text-align:center;
+    font-size:1.6em;
+}
+@media screen(min-width:0px)and(max-width:766px){
+ .col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
+     float: left;
+     border:1px solid:white;   
+      }
+   .col-xs-1 {
+  width: 8.33%;
+    }
+   .col-xs-2 {
+   width: 16.66%;
+    }
+    .col-xs-3{
+      width:25%;
+    }
+   .col-xs-4 {
+   width: 33%;
+    }
+  .col-xs-5 {
+  width: 41.66%;
+    } 
+  .col-xs-6 {
+   width: 50%;
+    }
+   .col-xs-7 {
+   width: 58.33%;
+    }
+   .col-xs-8 {
+   width: 66.66%;
+    }
+   .col-xs-9 {
+   width: 74.99%;
+    }
+   .col-xs-10 {
+   width: 83.33%;
+     }
+    .col-xs-11 {
+    width: 91.66%;
+    }
+  .col-xs-12 {
+    width: 100%;
+  }
+}
+#content1{
+  margin-top:30px;
+  margin-right:auto;
+  margin-left:auto;
+  border:none;
+  font-style:italic;
+  padding:10px
+     }
+#content2{
+  margin-right:auto;
+  margin-left:auto;
+  margin-top: 30px;
+  font-style:italic;
+  padding:10px;
+  border:none;
+  }
+#content3{
+  margin-right:auto;
+  margin-left:auto;
+  margin-top: 30px;
+  font-style:italic;
+  border:none;
+  padding:10px;
+     }
+#box1 span,#box2 span,#box3 span{
+  position:absolute;
+  top:0px;
+  right:0px;
+  width:100%;
+  text-align:center;
+  font-size:1.6em;
+  background-color:green;
+  color:#000;
+}
